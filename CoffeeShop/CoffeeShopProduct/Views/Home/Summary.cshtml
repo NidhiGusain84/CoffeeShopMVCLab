@@ -1,0 +1,12 @@
+﻿@model Member
+@{
+    ViewData["Title"] = "Summary";
+}
+
+<div>
+    @Model.FirstName @Model.LastName! <br />
+    Thank you for registration.<br />
+    We will contact you at @Model.PhoneNumber or at @Model.Email with any updates.<br />
+    Your password is @Model.Password
+</div>
+

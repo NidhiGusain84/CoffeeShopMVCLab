@@ -1,0 +1,15 @@
+﻿@model Member
+@{
+    ViewData["Title"] = "Registration";
+}
+
+<h3>Please fill the form to register!</h3>
+
+<form method="post" action="/Home/Summary/">
+    First Name: <input type="text" name="FirstName"/><br />
+    Last Name: <input type="text" name="LastName" /><br />
+    Email: <input type="email" name="Email"/><br />
+    Phone Number: <input type="tel" name="PhoneNumber"/><br />
+    Password: <input type="password" name="Password"/><br />
+    <input type="submit" />
+</form>

@@ -1,0 +1,20 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "DeleteConfirmation";
+}
+
+<h1>Are you sure you want to delete this product?</h1>
+
+<a href="/Admin/DeleteProduct?id=@Model.id" class="btn btn-danger">
+    Yes</a>
+
+<a href="/Admin" class="btn btn-primary">No</a>
+
+<h2>Product Description</h2>
+
+
+Product Id: @Model.id<br />
+Product Name: @Model.name<br />
+Product Description: @Model.description<br />
+Product Price: $@Model.price<br />
+Product Category: @Model.category

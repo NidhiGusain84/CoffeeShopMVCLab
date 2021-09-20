@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Xc6oxO3RfizKDxVMnfbkU7BErslVdo2KXIV6V4rMUo/5DhNcCS+jL8FIkgs3EpG14ocWQLNj+NAZo44czdKzg==",
+  "dgSpecHash": "8M0atqAuNDw1A1dlfvO6YRSA0jDj4huiJ4TNPeT9Ghf92dmivPcX6IfIRshq5HiQKVt+YZ7cCcgmNpvb774QJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ngusain\\source\\repos\\CoffeeShop\\CoffeeShopProduct\\CoffeeShopProduct.csproj",
+  "projectFilePath": "C:\\MYALLREPOS\\CoffeeShopMVCLab\\CoffeeShop\\CoffeeShopProduct\\CoffeeShopProduct.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ngusain\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\ngusain\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",

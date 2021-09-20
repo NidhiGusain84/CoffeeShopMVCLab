@@ -14,17 +14,17 @@ namespace CoffeeShopProduct.Controllers
     {
         public IActionResult Index()
         {
-            MySqlConnection db = new MySqlConnection("Server=localhost;Database=coffeeshop;Uid=root;Password=JaiHanuman@84");
-            List<Product> products = db.GetAll<Product>().ToList();
+            List<Product> products = DAL.GetAllProducts();
             return View(products);
         }
 
         public IActionResult Detail(int id)
         {
-            MySqlConnection db = new MySqlConnection("Server=localhost;Database=coffeeshop;Uid=root;Password=JaiHanuman@84");
-            List<Product> prod = db.Query<Product>("select * from products where id=@myId", new { myId = id }).ToList();
-            return View(prod);
+            List<Product> prods = DAL.GetProducts(id);
+            return View(prods);
         }
+
+       
 
     }
 }

@@ -1,0 +1,20 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Description";
+}
+
+<h1> Product Description:</h1>
+
+@foreach (Product product in Model)
+{
+    <div>
+        Product Id: @product.id<br />
+        Product Name: @product.name<br />
+        Product Description: @product.description<br />
+        Product Price:  $@product.price<br />
+        Product Category:  @product.category<br />
+
+    </div>
+}
+
+

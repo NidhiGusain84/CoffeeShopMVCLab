@@ -6872,11 +6872,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ngusain\\source\\repos\\CoffeeShop\\CoffeeShopProduct\\CoffeeShopProduct.csproj",
+      "projectUniqueName": "C:\\MYALLREPOS\\CoffeeShopMVCLab\\CoffeeShop\\CoffeeShopProduct\\CoffeeShopProduct.csproj",
       "projectName": "CoffeeShopProduct",
-      "projectPath": "C:\\Users\\ngusain\\source\\repos\\CoffeeShop\\CoffeeShopProduct\\CoffeeShopProduct.csproj",
+      "projectPath": "C:\\MYALLREPOS\\CoffeeShopMVCLab\\CoffeeShop\\CoffeeShopProduct\\CoffeeShopProduct.csproj",
       "packagesPath": "C:\\Users\\ngusain\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ngusain\\source\\repos\\CoffeeShop\\CoffeeShopProduct\\obj\\",
+      "outputPath": "C:\\MYALLREPOS\\CoffeeShopMVCLab\\CoffeeShop\\CoffeeShopProduct\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ngusain\\AppData\\Roaming\\NuGet\\NuGet.Config",
